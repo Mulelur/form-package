@@ -1,0 +1,12 @@
+.editorBar {
+  width: 48rem;
+  overflow: auto;
+}
+
+.editorBar__content {
+  padding: 1.9rem;
+}
+
+.editorBar__footer {
+  border-bottom: 1px solid #e4e6ea;
+}

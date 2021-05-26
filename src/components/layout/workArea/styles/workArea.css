@@ -1,0 +1,25 @@
+.workArea {
+  width: 100%;
+  background-color: #f4f5fc;
+  position: relative;
+  padding-top: 3rem;
+}
+
+.workArea__body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.workArea__header {
+  width: 3rem;
+  height: 3rem;
+  background-color: #e7efee;
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+}

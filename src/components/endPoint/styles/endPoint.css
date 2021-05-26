@@ -1,0 +1,22 @@
+.endPoint {
+}
+
+.endPoint__title {
+  font-size: 1.6rem;
+}
+.endpoint__input {
+  display: block;
+  width: 100%;
+  height: calc(2.895rem + 2px);
+  padding: 0.4375rem 1rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  color: #3c4d62;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #dbdfea;
+  border-radius: 4px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  outline: none;
+}

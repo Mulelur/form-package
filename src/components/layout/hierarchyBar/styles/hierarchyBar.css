@@ -1,0 +1,36 @@
+.hierarchyBar {
+  width: 35rem;
+  border-right: 1px solid #e4e6ea;
+}
+
+.hierarchyBar__header {
+  margin: 1rem;
+  border-bottom: 1px solid #e4e6ea;
+  padding-bottom: 1rem;
+}
+
+.hierarchyBar__title {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+.hierarchyBar__Body {
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 1rem;
+  line-height: 2.9rem;
+  text-transform: capitalize;
+}
+
+.hierarchyItem {
+  margin: 0.8rem;
+  padding: 0.5rem;
+}
+
+.hierarchyItem__selected {
+  border: 1px solid #1596f8;
+  border-radius: 0.4rem;
+  margin: 0.8rem;
+  padding: 0.5rem;
+}

@@ -1,0 +1,5 @@
+.column {
+  height: 100%;
+  padding: 5rem;
+  overflow: auto;
+}

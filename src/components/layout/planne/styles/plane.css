@@ -1,0 +1,11 @@
+.plane {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 86%;
+  height: 90%;
+  background-color: #ffffff;
+  border-radius: 0.4rem;
+
+  box-shadow: 0 2px 4px -1px rgba(6, 24, 44, 0.2);
+}

@@ -1,0 +1,31 @@
+.form-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #344357;
+  margin-bottom: 0.5rem;
+}
+
+textarea.form-control {
+  min-height: 122px;
+  padding-top: 0.65625rem;
+}
+
+textarea.form-control {
+  height: auto;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(2.125rem + 2px);
+  padding: 0.4375rem 1rem;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  color: #3c4d62;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #dbdfea;
+  border-radius: 4px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}

@@ -1,0 +1,18 @@
+.fildes {
+}
+
+.fildes__title {
+  font-size: 1.6rem;
+}
+
+.fildes__footer {
+  /* border-right: 1px solid #e4e6ea; */
+  border-bottom: 1px solid #e4e6ea;
+}
+
+.fildes__body {
+  text-align: center;
+  border: 1px solid #e4e6ea;
+  padding: 1rem;
+  border-radius: 0.2rem;
+}

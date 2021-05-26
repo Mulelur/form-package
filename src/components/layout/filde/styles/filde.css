@@ -1,0 +1,8 @@
+.filde {
+  padding: 0.4rem 1.4rem;
+  border-radius: 0.8rem;
+}
+
+.filde:hover {
+  background-color: #efefef;
+}
