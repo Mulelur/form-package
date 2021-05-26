@@ -10,9 +10,7 @@ import {
 export default function AdvancedContainer() {
   return (
     <AdvancedOptions>
-      <BoxShadow>
-        <BoxShadowWidget>x</BoxShadowWidget>
-      </BoxShadow>
+      <BoxShadow></BoxShadow>
       <OutLineColor></OutLineColor>
       <Label>label</Label>
     </AdvancedOptions>
