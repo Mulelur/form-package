@@ -37,5 +37,6 @@
   background-color: rgba(214, 228, 226, 0.575);
   transition: 0.3s;
   outline: none;
+  margin-left: 0;
   /* background-color: ; */
 }

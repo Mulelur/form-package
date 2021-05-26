@@ -29,7 +29,7 @@ export function BoxShadow({ children }) {
       </div>
       {showBody && (
         <div className="boxShadow__body">
-          <div className="boxShadow__content">0 0 0 0</div>
+          <div className="boxShadow__content">{children}</div>
           <RemoveIcon />
         </div>
       )}

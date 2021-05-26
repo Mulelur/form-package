@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles/select.css";
 
 export default function Select({ children, ...restProps }) {
   return (

@@ -41,7 +41,7 @@ export default function GridContainer() {
               {item.filde}
             </Filde>
           ) : (
-            <Demo>{item.filde}</Demo>
+            <Demo action={state.endpoint}>{item.filde}</Demo>
           );
         })}
       </Column>

@@ -23,6 +23,7 @@ export default function FrameContainer() {
     endpoint: "",
   };
   const reducer = (state = initialState, action) => {
+    console.log(state.endpoint);
     switch (action.type) {
       case "addFilde":
         state.activeFildes = [...act];
@@ -56,6 +57,9 @@ export default function FrameContainer() {
         return { ...state };
       case "toggleIsEdit":
         state.isEdit = !state.isEdit;
+        return { ...state };
+      case "setEndPoint":
+        state.endpoint = action.payload;
         return { ...state };
       default:
         throw new Error();
